@@ -142,11 +142,11 @@ section {
 
 .section-title {
     font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
     display: inline-block;
+    padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
+    margin-bottom: 35px;
+    color: #024e76;
 }
 
 .primary-border {
@@ -248,7 +248,7 @@ section {
     width: 410px;
     display: inline-block;
     vertical-align: top;
-    text-align: left;
+    text-align:left;
     margin: 30px 0 0 60px;
     color: white;
 }
@@ -258,7 +258,8 @@ section {
     font-size: 32px;
 }
 
-.contact-info p, .contact-info address {
+.contact-info p,
+.contact-into address {
     margin: 20px 0;
     line-height: 1.5;
     font-size: 20px;
@@ -266,7 +267,7 @@ section {
 }
 
 .contact-info a {
-    color:#fce138;
+    color: #fce138;
 }
 
-/*Reach out styles end*/
+/*Reach Out Styles End */
