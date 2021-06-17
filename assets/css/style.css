@@ -146,9 +146,7 @@ section {
 
 /* Hero Sytle Ends */
 
-.intro {
-    text-align: center;
-}
+
 
 .intro p {
     line-height: 1.7;
@@ -157,20 +155,22 @@ section {
     font-size: 20px;
     /* Add this to other declarations? */
     margin: 0 auto;
+    text-align: center;
 }
 
 .steps {
-    text-align: center;
+  
     background: #fce138;
 }
 
 .section-title {
     font-size: 55px;
-    display: inline-block;
-    padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
-    margin-bottom: 35px;
     color: #024e76;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 
 .primary-border {
@@ -206,7 +206,7 @@ section {
 }
 
 .trainers {
-    text-align: center;
+    
 }
 
 .trainer {
@@ -255,7 +255,7 @@ section {
 /* Reach Out Section Styling */
 
 .contact {
-    text-align: center;
+  
     background: #024e76;
 }
 
@@ -292,6 +292,10 @@ section {
 
 .contact-info a {
     color: #fce138;
+}
+
+.flex-row {
+    display: flex;
 }
 
 /*Reach Out Styles End */
