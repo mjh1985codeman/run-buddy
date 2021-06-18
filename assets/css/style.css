@@ -59,7 +59,6 @@ footer {
 }
 
 footer h2 {
-   
     color: #024e76;
     font-size: 30px;
     margin: 0;
@@ -189,7 +188,7 @@ section {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-  }
+}
 
 .step h3 {
     color: #024e76;
@@ -228,8 +227,6 @@ section {
     flex: 12;
 }
 
-
-
 .trainers {
     width: 100%;
     margin: 0 auto;
@@ -239,7 +236,7 @@ section {
 }
 
 .trainer {
-    margin: 0 auto 20px auto;
+    margin: 20px;
     background: #024e76;
     color: #fce138;
     flex: 1;
@@ -279,25 +276,29 @@ section {
 /* Reach Out Section Styling */
 
 .contact {
-  
-    background: #024e76;
+background: #024e76;
 }
 
 .contact h2 {
     color: #fce138;
 }
 
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-info > * {
+    flex: 1;
+    margin: 15px;
+}
+
 .contact-info iframe {
-    width: 400px;
     height: 400px;
 }
 
 .contact-info div {
-    width: 410px;
-    display: inline-block;
-    vertical-align: top;
-    text-align:left;
-    margin: 30px 0 0 60px;
     color: white;
 }
 
@@ -310,12 +311,33 @@ section {
 .contact-into address {
     margin: 20px 0;
     line-height: 1.5;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
 }
 
 .contact-info a {
     color: #fce138;
+}
+
+.contact-form input, .contact-form textarea {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color:#024e76;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.contact-form button {
+    width: 100%;
+    border: none;
+    background: #fce138;
+    color: #024e76;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
 }
 
 .flex-row {
