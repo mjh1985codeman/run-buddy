@@ -217,12 +217,17 @@ section {
     margin: 50px auto;
     padding-bottom: 50px;
     width: 80%;
-    border-bottom: 1px solid #39a6b2;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
+
+
+
+.step:not(:last-child) {
+    border-bottom: 1px solid #39a6b2;
+  }
 
 .step h3 {
     color: #024e76;
@@ -393,7 +398,7 @@ background: #024e76;
 .contact-form button:hover {
     color: #fce138;
     background: #39a6b2;
-  }
+}
 
 .flex-row {
     display: flex;
